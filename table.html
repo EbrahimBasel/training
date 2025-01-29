@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table</title>
+<link rel="stylesheet" href="style.css">
+ </head>
+<body id="mainbody">
+  <table>
+<form action="complete.html">
+<tr>
+  <th colspan="2">
+   <h1>Registration Form</h1> 
+  </th>
+</tr>
+<tr>
+  <td><label for="fn">First Name</label></td>
+  <td> <input type="text" id="fn" placeholder="enter yout first name" name="First Name"></td>
+</tr>
+<tr>
+  <td>
+    <label for="ln">Last Name</label>
+  </td>
+  <td>
+    <input type="text" id="ln" placeholder="enter your last name" name="Last Name">
+  </td>
+</tr>
+<tr>
+  <td>
+    <label for="un">User Name</label>
+  </td>
+  <td>
+    <input type="text"  id="un" placeholder="write your user name" name="User Name">
+  </td>
+</tr>
+<tr>
+  <td>
+    <label for="ps">Pass</label>
+  </td>
+  <td>
+    <input type="password" required id="ps" placeholder="enter yout password" name="password">
+  </td>
+</tr>
+<tr>
+<td>
+  <label for="se">Track</label>
+</td>
+<td>
+  <select name="Track" id="se">
+    <option id="se""">SD</option>
+    <option id="se">HD</option>
+</td>
+</tr>
+<tr>
+  <td rowspan="2">
+    <label for="">Gender</label>
+  </td>
+  <td>
+    <input type="radio" name="Gender" id="genm" value="Male">
+<label for="genm">Male</label>
+  </td>
+</tr>
+<tr>
+  <td>
+    <input type="radio" name="Gender" id="genf" value="Female">
+<label for="genf">Female</label>
+  </td>
+</tr>
+<tr>
+  <td rowspan="2">
+<label for="">Favorits</label>
+  </td>
+</tr>
+<tr>
+  <td>
+<input type="checkbox" id="fo" value="Football" name="Favorits">
+<label for="fo">Football</label>
+<input type="checkbox" id="ba" value="Basketball" name="Favorits">
+<label for="ba">Basketball</label>
+<input type="checkbox" id="ga"  value="Games" name="Favorits">
+<label for="ga">Games</label>
+    <br>
+<input type="checkbox" id="rea" value="Reading" name="Favorits">
+<label for="rea">Reading</label>
+<input type="checkbox" id="sw" value="Swimming" name="Favorits">
+<label for="sw">Swimming</label>
+<input type="checkbox" id="tra"  value="Travel" name="Favorits">
+<label for="tra">Travel</label>
+  </td>
+</tr>
+<tr>
+  <td>
+    <label for="textarea">Descrtiption</label>
+  </td>
+  <td>
+    <textarea name="Descrtiption" id="textarea" cols="20" rows="5" placeholder="write something"></textarea>
+  </td>
+</tr>
+<tr>
+ <td colspan="2" id="foot">
+  <input type="submit">
+  <input type="reset">
+ </td>
+</tr>
+</form>
+  </table>
+</body>
+</html>

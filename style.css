@@ -1,0 +1,27 @@
+#mainbody{
+
+background-image: url(https://cdn.pixabay.com/photo/2018/04/09/14/33/abstract-3304213_640.png);
+}
+table{
+    justify-self: center;
+    border: solid 10px rgb(0, 0, 0);
+    width: 450px;
+    height: 550px;
+    background-color: rgb(93, 231, 231);
+    margin-top: 100px;
+}
+tr , th ,td{
+    border: solid 2px rgb(0, 0, 0);
+}
+#foot{
+    text-align: center;
+    
+}
+#header1{
+    justify-self: center;
+    margin-top: 200px;
+}
+#done{
+    justify-self: center;
+    margin-left: 640px;
+}
